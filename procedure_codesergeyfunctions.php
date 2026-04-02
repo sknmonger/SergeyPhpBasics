@@ -53,11 +53,10 @@ echo "qoutient=".$calculator->qoutient."<br>";
 
 //Using Design in PHP File CSS HTML ECHO TAGS<<<HTML HTML;
 echo <<<HTML
-<style>.newcal {padding: 3% 3%;
+<style>.newcal {padding: 1% 1%;
                 font-size: 22px;
                 text-align: center;
                 margin-left: 10%;
-                margin-top: 500px;
                 background-color: blue;
                 color: white;}
                 
@@ -65,6 +64,9 @@ echo <<<HTML
                 
                 </style>
 <div>
+    <div style="height: 300px; widht:10px;">
+    </div>
+
 <label type="text" class="newcal">Sum is $calculator->sum</label>
 <label type="text" class="newcal">difference is $calculator->difference</label>
 <label type="text" class="newcal">product is $calculator->product</label>
