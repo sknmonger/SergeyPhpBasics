@@ -34,7 +34,7 @@ $num2=$_POST["num2"];
 $calculator = new calculatorObject();
 
 /*call class method and FUnctions
-$calculator is Class ->FUnction(that has $num1 & $num2);
+$calculator is Class ->Function(that has $num1 & $num2);
  OBJECT CLASS -> FUNCTION (DATA); */
 
 $calculator->add($num1,$num2);
