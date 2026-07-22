@@ -6,7 +6,7 @@ class calculatorObject {
 var $sum;
 var $difference;
 var $product; 
-var $qoutient;
+var $quotient;
 
 //class members functions and methods 
 function add($num1,$num2){
@@ -20,7 +20,7 @@ function multiply($num1,$num2){
     $this->product=$num1*$num2;
 }
 function divide($num1,$num2){
-    $this->qoutient=$num1/$num2;
+    $this->quotient=$num1/$num2;
 }
 
 // class closing bracket
@@ -48,7 +48,7 @@ $calculator->divide($num1,$num2);
 echo "sum=".$calculator->sum."<br>";
 echo "difference=".$calculator->difference."<br>";
 echo "product=".$calculator->product."<br>";
-echo "qoutient=".$calculator->qoutient."<br>";
+echo "quotient=".$calculator->quotient."<br>";
 
 
 //Using Design in PHP File CSS HTML ECHO TAGS<<<HTML HTML;
